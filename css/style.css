@@ -1,0 +1,153 @@
+/*StartHeader*/
+body{
+    background-image: url(../images/Background.jpg);
+    background-size: cover; 
+}
+.container{
+    margin: auto;
+    width: 1170px;
+}
+.clearfix{
+    clear: both;
+}
+.header .slider{
+    background-image: url(../images/backg.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.header .audio{
+    float: right;
+}
+.header .slider .intro{
+    padding-top: 300px;
+    color: aqua;
+    text-align: center;
+}
+.header .slider .intro h2{
+    font-size: 40px;
+    margin: 0 auto;
+    width: 600px;
+    border-top: 5px solid cyan;
+    border-bottom: 5px solid cyan;
+}
+.header .slider .intro button{
+    color:cyan;
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid cyan;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+.header .navbar{
+    height:60px;
+    background-color: #333;
+    color: aliceblue;
+    overflow: hidden;
+    text-transform: uppercase;
+}
+.header .navbar ul{
+    list-style: none;
+    padding-left: 0;
+    float: left;
+}
+.header .navbar ul li{
+text-align=center;
+    color: azure;
+    float: left;
+    padding:5px;
+}
+.header .navbar ul>li> a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .header .navbar ul>li>a:hover {
+    background-color: #111;
+  }
+/*EndHeader*/
+/*StartFeatures*/
+.features{
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.features .feat{
+    float: left;
+    width: 50%;
+    height: 150px;
+}
+.features .feat h2{text-transform: uppercase;
+color:aqua;
+}
+.features .feat p{
+    font-family: serif;
+    font-size: 20px;
+    color: aquamarine;
+}
+/*EndFeatures*/
+/*StartPics*/
+.order h2{
+    text-align: center;
+    color: aqua;
+}
+.order p{
+    font-size: 20px;
+    text-align: center;
+    color: chocolate
+}
+.pics div{
+    float: left;
+    width:20%;
+    margin-bottom: 15px;
+}
+.pics div img{
+    width: 90%;
+    
+}
+/*EndPics*/
+
+/* start footer */
+footer{
+    color: ivory;
+    text-align: center;
+}
+footer p a{
+    color: brown;
+}
+/* end footer */
+/*StartOrderpage*/
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+/*End Order Page*/
